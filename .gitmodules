@@ -13,3 +13,6 @@
 [submodule "sandbox"]
 	path = sandbox
 	url = git@github.com:tunfish/tunfish-sandbox.git
+[submodule "ca"]
+	path = ca
+	url = git@github.com:tunfish/tunfish-ca.git
