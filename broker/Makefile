@@ -22,7 +22,6 @@ setup-package: setup-virtualenv
 # Init
 # ====
 init: setup-package
-	echo $(TF_CA_URL)
 	$(pki-client) \
         --ca-url=$(TF_CA_URL) --ca-name=RootCA \
         --cacert=cacert.pem --key=crossbar.key --certificate=crossbar.pem --profile=server --common-name-prefix=broker
