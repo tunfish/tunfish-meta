@@ -1,12 +1,6 @@
 [submodule "portier"]
 	path = portier
 	url = git@github.com:tunfish/tunfish-portier.git
-[submodule "node"]
-	path = node
-	url = git@github.com:tunfish/tunfish-node.git
-[submodule "client"]
-	path = client
-	url = git@github.com:tunfish/tunfish-client.git
 [submodule "common"]
 	path = common
 	url = git@github.com:tunfish/tunfish-common.git
