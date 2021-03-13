@@ -1,9 +1,12 @@
-    # Create client key and certificate signing request (CSR).
-    openssl genrsa -out broker.key 4096
-    openssl req -new -key broker.key -out broker.csr -utf8 -batch -subj '/CN=hello.example.org/emailAddress=root@hello.example.org'
+######################
+Tunfish message broker
+######################
 
-    # Request root certificate in PEM format.
-    http http://localhost:8000/issuer/RootCA.pem
+Setup
+=====
 
-    # Sign a client certificate.
-    cat example.csr | http http://localhost:8000/pki/RootCA/autosign Content-Type:application/x-pem-file
+1. Run ``tunfish-ca``.
+2. For people in a hurry::
+
+    make init
+    make run

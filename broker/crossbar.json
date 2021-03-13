@@ -41,7 +41,7 @@
               "key": "crossbar.key",
               "certificate": "crossbar.pem",
               "ca_certificates": [
-                "ca.pem"
+                "cacert.pem"
               ]
             }
           },
