@@ -10,3 +10,6 @@
 [submodule "ca"]
 	path = ca
 	url = git@github.com:tunfish/tunfish-ca.git
+[submodule "node"]
+	path = node
+	url = git@github.com:tunfish/tunfish-node.git
